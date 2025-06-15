@@ -1,0 +1,214 @@
+{
+  "name": "Praadnya H",
+  "title": "Creative Technologist | Backend Enthusiast | AI Explorer",
+  "location": "Bengaluru, India",
+  "profileImage": "/src/assets/profile.jpg",
+  "contact": {
+    "email": "hpraadnya@gmail.com",
+    "phone": "+91-9740027342",
+    "linkedin": "https://www.linkedin.com/in/praadnya-h/",
+    "github": "https://github.com/Praadnya"
+  },
+  "about": "I'm a curious creator passionate about blending technology with impact, from Spring Boot to Transformers. As a strong backend developer, I love building scalable, efficient systems that are both robust and delightful. My interests lie at the intersection of finance, data analytics, and real-world fintech innovation.",
+  "education": [
+    {
+      "institution": "PES University",
+      "logo": "src/assets/education_pesu.jpeg",
+      "location": "Bengaluru",
+      "startYear": "2021",
+      "endYear": "2025",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "cgpa": "9.06",
+      "description": "The foundation of my technical journey, PES University has been more than just a college—it’s been a launchpad for creativity and collaboration. From burning the midnight oil during hackathons to building projects that leveraged the power of cloud, AI/ML, and data analytics, it nurtured my curiosity and sharpened my problem-solving mindset. Whether working solo or with peers, it’s where I learned to turn abstract ideas into impactful tech-driven solutions."
+    }
+  ],
+  "experiences": [
+    {
+      "company": "CARS24",
+      "logo": "src/assets/exp_cars24.png",
+      "title": "SDE Intern",
+      "duration": "Jan 2025 – Present",
+      "location": "Bengaluru",
+      "description": "At CARS24, I joined the fintech engineering team amidst a high-stakes project on AI-powered loan assistance. I was thrown into a real-world codebase and trusted with building secure, scalable microservices using Spring Boot and FastAPI. I worked across MongoDB, MySQL, and Redis, creating resilient chatbots and integrating secure JWT-based authentication. The highlight? A third-party integration I engineered brought ₹1 crore in revenue! It felt like magic, but was really the power of profiling, parallel execution, and good OOP design. I also led our audit log migration for analytics and mentored data scientists by building intuitive CRON-based workflows."
+    },
+    {
+      "company": "Intel",
+      "logo": "src/assets/exp_intel.jpeg",
+      "title": "AI Research Intern",
+      "duration": "Jun 2024 – Aug 2024",
+      "location": "Remote",
+      "description": "Intel was a dream internship. I began by analysing transformer models on Gaudi GPUs. It was a deep dive into concurrency, memory bandwidth, and inference speed. But the real joy came when I tackled a problem about parsing Government Circulars. I annotated data, built OCR + NER pipelines, and stored structured outputs in GraphDBs and embeddings in VectorDBs to later query about these circulars. Adding to this, I built a complete full-stack system—FastAPI backend, MySQL DB, and React frontend—to manage academic entities like mentors, students, and projects. Every bit of it was designed with precision, and the MVC pattern helped me keep it elegant."
+    },
+    {
+      "company": "Infosys",
+      "logo": "src/assets/exp_infosys.jpeg",
+      "title": "AI Intern",
+      "duration": "Sep 2023 – Nov 2023",
+      "location": "Remote",
+      "description": "At Infosys, I dived into the world of static code analysis. My project was to build a method description generator for Java code using NLP. I leveraged ANTLR4 and javalang for parsing Java ASTs, and integrated Transformers to generate meaningful natural language descriptions. The output wasn't just for humans—it was structured into Word documents for documentation automation. I learned to blend symbolic logic with neural language models, and it sparked my deeper interest in explainable AI."
+    },
+    {
+      "company": "Indian Institute of Science (IISc)",
+      "logo": "src/assets/exp_iisc.jpeg",
+      "title": "Summer Research Intern",
+      "duration": "Jun 2023 – Sep 2023",
+      "location": "Bengaluru",
+      "description": "Being at IISc felt like being in a temple of knowledge. My role was to explore the performance of data structures like BST, AVL, and SkipLists—implemented across Python, Java, and C. I analyzed insertion/deletion behavior under various loads. But more than the project, it was the environment—filled with postdocs, professors, and fellow interns—that ignited a lifelong passion for research. I also got to volunteer at the prestigious EDM Conference, where I connected with the best minds in educational AI."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Multimodal Advertisement Generator",
+      "image": "src/assets/animatrix.png",
+      "duration": "May 2024 – Oct 2024",
+      "description": "Imagine if a model could see your product and come up with the perfect poetic tagline and a story to sell it. That's what I built—fine-tuned BART for slogan generation, used RoBERTa and MiniLM for semantic alignment, and built a React-Django interface that recommended visuals using TF-IDF scoring. It wasn't just AI—it was storytelling.",
+      "techStack": "React, Django, BART, RoBERTa, MiniLM, TF-IDF, MongoDB"
+    },
+    {
+      "name": "Psychometric Games",
+      "image": "src/assets/games.png",
+      "duration": "Oct 2024",
+      "description": "As a fusion of psychology and tech, I designed six mini-games to assess cognitive skills like memory, focus, and spatial reasoning. The backend (TypeScript + Neo4j) tracked performance and patterns. These games weren't just fun—they gave insights into how we think.",
+      "techStack": "TypeScript, Neo4j, Chart.js"
+    },
+    {
+      "name": "Cuisine Compass",
+      "image": "src/assets/zomato.png",
+      "duration": "Sep 2024",
+      "description": "A Zomato clone—but smarter. CuisineCompass used a SWIN Transformer for food image search, combined with geolocation and MongoDB filters to suggest restaurants. The React-Tailwind interface was smooth, and FastAPI made sure it performed under load.",
+      "techStack": "Transformers, FastAPI, MongoDB, ReactJS, TailwindCSS"
+    },
+    {
+      "name": "Vanamala Clinic Website",
+      "image": "src/assets/clinic.png",
+      "duration": "Jun 2024",
+      "description": "I built a patient-facing portal that simplified clinic operations. OTP login with Twilio, seamless navigation, prescription generation—all live, all functional. Tailored for real-world medical workflows.",
+      "techStack": "React, FastAPI, MongoDB"
+    },
+    {
+      "name": "Employee Leave Management System",
+      "image": "src/assets/leave.png",
+      "duration": "Jun 2024",
+      "description": "One of my first Spring Boot projects—a leave management system built with clean OOP design, SOLID and GRASP principles at its core. From request flows to approvals, every feature was structured and scalable. Paired with a smooth, intuitive UI using Thymeleaf, it brought clarity to company workflows and confidence to my backend skills.",
+      "techStack": "Java SpringBoot, ThymeLeaf, MySQL"
+    },
+    {
+      "name": "RAG Pipeline - Retrieval Augmented Generation",
+      "image": "src/assets/rag.png",
+      "duration": "Jun 2024",
+      "description": "Developed a modular RAG pipeline for domain-specific question-answering, integrating document loaders, text embedding, and LLM-based generation. Focused on optimizing answer relevance and efficiency using state-of-the-art NLP tools.",
+      "techStack": "Python, Hugging Face Transformers, FAISS, DistilBART, Document Parsers"
+    },
+    {
+      "name": "Stream & Batch Processing Pipeline",
+      "image": "src/assets/stream_batch.png",
+      "duration": "Mar 2024",
+      "description": "Built a real-time sentiment analysis pipeline using Apache Spark Streaming and Kafka. Evaluated and optimized the performance trade-offs between batch and stream processing for robust data workflows.",
+      "techStack": "Apache Spark, Apache Kafka, Python"
+    },
+    {
+      "name": "Car Resale Price Prediction",
+      "image": "src/assets/car_price.png",
+      "duration": "Nov 2023",
+      "description": "Developed a predictive model for estimating car resale values using XGBoost. Conducted thorough EDA, hyperparameter tuning, and visualization to drive accurate price predictions and actionable insights.",
+      "techStack": "Python, XGBoost, Scikit-learn, Pandas, Matplotlib, Seaborn"
+    },
+    {
+      "name": "Conversational AI Career Advisor",
+      "image": "src/assets/conversational_ai.png",
+      "duration": "Jul 2023",
+      "description": "Created a web-based conversational app offering personalized career and study suggestions using OpenAI APIs. Implemented prompt engineering and designed an interactive, responsive UI for real-time experiences.",
+      "techStack": "HTML, CSS, JavaScript, jQuery, OpenAI API"
+    }    
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "Java",
+      "HTML"
+    ],
+    "Frameworks & Tools": [
+      "Spring Boot",
+      "FastAPI",
+      "Flask",
+      "ReactJS",
+      "Django"
+    ],
+    "Databases": [
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Neo4j"
+    ],
+    "DevOps & Monitoring": [
+      "GitHub Actions",
+      "Jenkins",
+      "Prometheus",
+      "Grafana"
+    ],
+    "Concepts": [
+      "Secure API Design",
+      "CI/CD",
+      "JWT/OAuth",
+      "Data Modeling"
+    ],
+    "AI/ML": [
+      "Transformers",
+      "NER/OCR",
+      "Fine-tuning",
+      "TF-IDF",
+      "Vector Embeddings"
+    ],
+    "Soft Skills": [
+      "Storytelling with Data",
+      "Creative Problem Solving",
+      "Adaptability",
+      "Teamwork"
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Google Data Analytics Certificate (Coursera)",
+      "description": "Learned practical BigQuery, Tableau, Excel, and Python for large-scale business analytics."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Best Paper Award – ICRIET 2025",
+      "description": "Awarded for 'ANIMATRIX: Personalized Multimodal Content Generation for Advertising'"
+    },
+    {
+      "title": "MRD Scholarship (x6)",
+      "description": "Awarded for being among the top 25% in every semester—consistency meets excellence."
+    },
+    {
+      "title": "Lake Conference 2019",
+      "description": "Secured 2nd place in a GenAI paper presentation. The experience of pitching to researchers was invaluable."
+    }
+  ],
+  "interests": [
+    "Solving complex puzzles and math games",
+    "Reading NLP and GenAI research papers",
+    "Building mini-games to test logic and reaction time",
+    "Exploring fashion + AI intersections",
+    "Contributing to open-source GenAI utilities"
+  ],
+  "coursework": [
+    "OOP using Java",
+    "Data Structures & Algorithms",
+    "Full Stack Web Development",
+    "Cloud & Scalable Systems",
+    "Data Analytics and Visualization",
+    "Generative AI and LLMs"
+  ],
+  "hackathons": [
+    {
+      "title": "Kodikon",
+      "description": "Built a real-time safety alert system for women, integrating location tracking and emergency triggers."
+    },
+    {
+      "title": "WEAL Hackathon",
+      "description": "Designed a platform to support the social reintegration of retired army personnel."
+    }
+  ]
+}
