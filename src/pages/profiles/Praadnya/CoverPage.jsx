@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { Github, Linkedin, FileDown } from 'lucide-react';
-import resume from '../../../../src/assets/resume.pdf';
-import profileImage from '../../../assets/profile.jpg'
+import resume from '/assets/resume.pdf';
+import profileImage from '/assets/profile.jpg'
 
 const CoverPage = ({ data }) => {
   const name = data?.name || 'Your Name';

@@ -13,7 +13,7 @@
   "education": [
     {
       "institution": "PES University",
-      "logo": "src/assets/education_pesu.jpeg",
+      "logo": "/portfolio/assets/education_pesu.jpeg",
       "location": "Bengaluru",
       "startYear": "2021",
       "endYear": "2025",
@@ -25,7 +25,7 @@
   "experiences": [
     {
       "company": "CARS24",
-      "logo": "src/assets/exp_cars24.png",
+      "logo": "/portfolio/assets/exp_cars24.png",
       "title": "SDE Intern",
       "duration": "Jan 2025 – Present",
       "location": "Bengaluru",
@@ -33,7 +33,7 @@
     },
     {
       "company": "Intel",
-      "logo": "src/assets/exp_intel.jpeg",
+      "logo": "/portfolio/assets/exp_intel.jpeg",
       "title": "AI Research Intern",
       "duration": "Jun 2024 – Aug 2024",
       "location": "Remote",
@@ -41,7 +41,7 @@
     },
     {
       "company": "Infosys",
-      "logo": "src/assets/exp_infosys.jpeg",
+      "logo": "/portfolio/assets/exp_infosys.jpeg",
       "title": "AI Intern",
       "duration": "Sep 2023 – Nov 2023",
       "location": "Remote",
@@ -49,7 +49,7 @@
     },
     {
       "company": "Indian Institute of Science (IISc)",
-      "logo": "src/assets/exp_iisc.jpeg",
+      "logo": "/portfolio/assets/exp_iisc.jpeg",
       "title": "Summer Research Intern",
       "duration": "Jun 2023 – Sep 2023",
       "location": "Bengaluru",
@@ -59,63 +59,63 @@
   "projects": [
     {
       "name": "Multimodal Advertisement Generator",
-      "image": "src/assets/animatrix.png",
+      "image": "/portfolio/assets/animatrix.png",
       "duration": "May 2024 – Oct 2024",
       "description": "Imagine if a model could see your product and come up with the perfect poetic tagline and a story to sell it. That's what I built—fine-tuned BART for slogan generation, used RoBERTa and MiniLM for semantic alignment, and built a React-Django interface that recommended visuals using TF-IDF scoring. It wasn't just AI—it was storytelling.",
       "techStack": "React, Django, BART, RoBERTa, MiniLM, TF-IDF, MongoDB"
     },
     {
       "name": "Psychometric Games",
-      "image": "src/assets/games.png",
+      "image": "/portfolio/assets/games.png",
       "duration": "Oct 2024",
       "description": "As a fusion of psychology and tech, I designed six mini-games to assess cognitive skills like memory, focus, and spatial reasoning. The backend (TypeScript + Neo4j) tracked performance and patterns. These games weren't just fun—they gave insights into how we think.",
       "techStack": "TypeScript, Neo4j, Chart.js"
     },
     {
       "name": "Cuisine Compass",
-      "image": "src/assets/zomato.png",
+      "image": "/portfolio/assets/zomato.png",
       "duration": "Sep 2024",
       "description": "A Zomato clone—but smarter. CuisineCompass used a SWIN Transformer for food image search, combined with geolocation and MongoDB filters to suggest restaurants. The React-Tailwind interface was smooth, and FastAPI made sure it performed under load.",
       "techStack": "Transformers, FastAPI, MongoDB, ReactJS, TailwindCSS"
     },
     {
       "name": "Vanamala Clinic Website",
-      "image": "src/assets/clinic.png",
+      "image": "/portfolio/assets/clinic.png",
       "duration": "Jun 2024",
       "description": "I built a patient-facing portal that simplified clinic operations. OTP login with Twilio, seamless navigation, prescription generation—all live, all functional. Tailored for real-world medical workflows.",
       "techStack": "React, FastAPI, MongoDB"
     },
     {
       "name": "Employee Leave Management System",
-      "image": "src/assets/leave.png",
+      "image": "/portfolio/assets/leave.png",
       "duration": "Jun 2024",
       "description": "One of my first Spring Boot projects—a leave management system built with clean OOP design, SOLID and GRASP principles at its core. From request flows to approvals, every feature was structured and scalable. Paired with a smooth, intuitive UI using Thymeleaf, it brought clarity to company workflows and confidence to my backend skills.",
       "techStack": "Java SpringBoot, ThymeLeaf, MySQL"
     },
     {
       "name": "RAG Pipeline - Retrieval Augmented Generation",
-      "image": "src/assets/rag.png",
+      "image": "/portfolio/assets/rag.png",
       "duration": "Jun 2024",
       "description": "Developed a modular RAG pipeline for domain-specific question-answering, integrating document loaders, text embedding, and LLM-based generation. Focused on optimizing answer relevance and efficiency using state-of-the-art NLP tools.",
       "techStack": "Python, Hugging Face Transformers, FAISS, DistilBART, Document Parsers"
     },
     {
       "name": "Stream & Batch Processing Pipeline",
-      "image": "src/assets/stream_batch.png",
+      "image": "/portfolio/assets/stream_batch.png",
       "duration": "Mar 2024",
       "description": "Built a real-time sentiment analysis pipeline using Apache Spark Streaming and Kafka. Evaluated and optimized the performance trade-offs between batch and stream processing for robust data workflows.",
       "techStack": "Apache Spark, Apache Kafka, Python"
     },
     {
       "name": "Car Resale Price Prediction",
-      "image": "src/assets/car_price.png",
+      "image": "/portfolio/assets/car_price.png",
       "duration": "Nov 2023",
       "description": "Developed a predictive model for estimating car resale values using XGBoost. Conducted thorough EDA, hyperparameter tuning, and visualization to drive accurate price predictions and actionable insights.",
       "techStack": "Python, XGBoost, Scikit-learn, Pandas, Matplotlib, Seaborn"
     },
     {
       "name": "Conversational AI Career Advisor",
-      "image": "src/assets/conversational_ai.png",
+      "image": "/portfolio/assets/conversational_ai.png",
       "duration": "Jul 2023",
       "description": "Created a web-based conversational app offering personalized career and study suggestions using OpenAI APIs. Implemented prompt engineering and designed an interactive, responsive UI for real-time experiences.",
       "techStack": "HTML, CSS, JavaScript, jQuery, OpenAI API"
