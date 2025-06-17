@@ -28,6 +28,12 @@ export default {
       },
 		fontFamily: {
 			pixel: ['"Press Start 2P"', 'cursive'],
+			'scrapbook': ['Caveat', 'cursive'],
+			'scrapbook-title': ['Amatic SC', 'cursive'],
+			'scrapbook-body': ['Kalam', 'cursive'],
+			'scrapbook-accent': ['Patrick Hand', 'cursive'],
+			'scrapbook-playful': ['Architects Daughter', 'cursive'],
+			'scrapbook-casual': ['Indie Flower', 'cursive'],
 		},
   		borderRadius: {
   			lg: 'var(--radius)',

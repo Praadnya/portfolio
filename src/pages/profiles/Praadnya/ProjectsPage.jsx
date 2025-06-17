@@ -2,11 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 
-// No longer need to import individual images or the getProjectImage helper
-
 const ProjectsPage = ({ projects }) => {
   return (
-    <div className="h-full w-full flex items-center justify-center p-8 relative">
+    <div className="h-full w-full flex items-center justify-center p-8 relative font-scrapbook-body">
       <Card className="w-full h-full bg-[#f5e6d3] shadow-xl relative overflow-hidden">
         {/* Animated background shapes */}
         <div className="absolute inset-0">
@@ -40,7 +38,7 @@ const ProjectsPage = ({ projects }) => {
           <motion.h2
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="text-4xl font-serif text-[#5c4934] mb-8"
+            className="text-4xl font-scrapbook-title text-[#5c4934] mb-8"
           >
             Projects
           </motion.h2>
@@ -48,7 +46,6 @@ const ProjectsPage = ({ projects }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 overflow-x-auto no-scrollbar w-full px-4">
             {projects?.map((project, index) => (
               <motion.div
-                // Use project.id if available, otherwise index as fallback
                 key={project.id || index}
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -75,22 +72,21 @@ const ProjectsPage = ({ projects }) => {
                   </motion.div>
 
                   {/* Project Details */}
-                  <h3 className="text-xl font-serif text-[#5c4934] mb-2">
+                  <h3 className="text-xl font-scrapbook-title text-[#5c4934] mb-2">
                     {project.name}
                   </h3>
                   <div className="flex flex-wrap gap-2 mb-3">
-                    {/* Added a check for techStack before splitting, as it might be missing or undefined */}
                     {project.techStack && project.techStack.split(',').map((tech, i) => (
                       <motion.span
                         key={i}
                         whileHover={{ scale: 1.1 }}
-                        className="bg-[#d4b595] px-2 py-1 rounded-full text-[#fff9f0] text-xs"
+                        className="bg-[#d4b595] px-2 py-1 rounded-full text-[#fff9f0] text-xs font-scrapbook-accent"
                       >
                         {tech.trim()}
                       </motion.span>
                     ))}
                   </div>
-                  <p className="text-[#8b7355] text-sm">
+                  <p className="text-[#8b7355] text-sm font-scrapbook-casual">
                     {project.description}
                   </p>
                 </motion.div>
